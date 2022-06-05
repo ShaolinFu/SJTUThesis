@@ -1,4 +1,4 @@
-% !TEX root = ./main.tex
+﻿% !TEX root = ./main.tex
 
 \sjtusetup{
   %
@@ -43,7 +43,7 @@
     supervisor      = {某某教授},
     supervisor*     = {Prof. Mou Mou},
     %
-    % 副指导教师
+    % 副指导教师，或企业导师
     %
     % assisupervisor  = {某某教授},
     % assisupervisor* = {Prof. Uom Uom},
@@ -55,18 +55,18 @@
     % 学位
     %   本科生不需要填写
     %
-    degree          = {工学硕士},
-    degree*         = {Master of Engineering},
+    degree          = {工程管理硕士},
+    degree*         = {Master of Engineering Management},
     %
     % 专业
     %
-    major           = {某某专业},
-    major*          = {A Very Important Major},
+    major           = {工程管理},
+    major*          = {Engineering Management},
     %
     % 所属院系
     %
-    department      = {某某系},
-    department*     = {Depart of XXX},
+    department      = {电子信息与电气工程学院},
+    department*     = {School of Electronic Information and Electrical Engineering},
     %
     % 课程名称
     %   仅课程论文适用
@@ -97,8 +97,11 @@
     % 本科论文页眉 logo 颜色 (red/blue/black)
     %
     % header-logo-color = black,
-    % 页眉中是否包含专业 (true/false)，默认不包含
-    % header-include-major = true,
+    header = double,
+    % 是否在页眉中包含专业 (true/false)
+    header-include-major = true,
+    % 页眉的线条样式 (singlerule/doublerule)
+    header-rule-type = singlerule,
   },
   %
   % 名称设置
